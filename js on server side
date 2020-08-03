@@ -2,5 +2,5 @@ var gr= new GlideRecord('task');
 gr.addActivityQuery();
 gr.query();
 while (gr.next()) {
-gs.info(gr.getValue(number));
+gs.info(gr.getValue('number'));
 }
