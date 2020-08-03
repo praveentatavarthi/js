@@ -1,0 +1,3 @@
+function onload() {
+alert('current state value is:   ' + g_form.getvalue('state'));
+}
